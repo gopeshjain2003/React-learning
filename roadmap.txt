@@ -1,0 +1,63 @@
+RoadMap of React.JS :
+
+1. Why to Learn React ? 
+    a. hype , Job augmented , trend , build UI
+    b. Makes easy to manage & build complex frontend without reloading the whole website.
+
+2. When should I learn React ?
+    a. After mastering JS .
+    b. Most of the project don't need react in initial phase.
+
+3. Why react was created ?
+    a. Ghost/phantom message problem in facebook .
+        a. In facebook application , there is chat icon , which helps the user to know the new message highlights , so to solve the phatom problem , react was introduced by Facebook.
+
+    b. State -> JS  &  UI -> DOM
+
+    c. Syncing problem .
+
+    d. Due to JS & DOM are not getting interacted.
+
+    e. When React got much better appreciation , then Khan Academy and Unsplash adopted , and they are the most powerful website on the Internet . 
+
+4. Don't lean React if : You don't know how JS works OR DOM works.
+
+5. React Learning Process : 
+
+    a. go in depth. : babel , fire , virtual DOM , diffing algorithm , hyderation , tree shaking and etc.
+
+    b. by making projects (One topic at a time) : Todo, calculator , github API .
+
+6. React is a Library / Framework (React is 'Library') :
+
+    a. Framework are the strict rules and conventions.
+    b. Library .
+
+7. Topics to learn : 
+
+    a. Core of the React (state or UI manipulation , JSX) ;
+    b. Component reusability . 
+    c. Reusing of component (props) . props => Properties
+    d. How to propogate change (hooks) . useState , useEffect and many more.
+    e. SPA : React create Single Page Application . 
+
+8. Additional Add-on to React :
+
+    a. Router (React don't have router) .
+    b. state management (React don't have state management) .
+        a. redux , Redux toolkit , zustand  , context API (give hooks to manage state management).
+
+    c. class based component.
+        a. legacy code (X) . IS NOT GOOD !
+
+    d. BAAS Apps (Backend as a Service) : appwrite , firebase , supabase , and many more .
+        a. social media clone , e-commerce application . . . 
+        b. FreeAPI (Open Source) free to use .
+        
+
+
+9. After React : 
+
+    a. React is not a complete solution in most case , No SEO , browser render of JS , no routing .
+
+    b. Framework : NEXT.js , Gatsby , Remix are made up of top of React.

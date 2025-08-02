@@ -14,12 +14,20 @@ function App()
 
   
   // Add Button functionality has disabled property in return section , if counter >=10 .
-  const addValue = () => 
+  // const addValue = () => 
+  // {
+  //   console.log("Counter Varaible + : ",counter) ;
+  //   let add = counter+1 ;
+  //   setCounter(add) ;
+  // } ;
+
+  // trying with function , WORKING !
+  function addValue()
   {
-    console.log("Counter Varaible + : ",counter) ;
-    let add = counter+1 ;
+    console.log("Counter Value + : "+counter) ;
+    let add = counter + 1 ;
     setCounter(add) ;
-  } ;
+  }
 
   const decreaseValue = () => 
   {

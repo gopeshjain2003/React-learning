@@ -22,7 +22,7 @@ function App()
     <>
       <h1 className='bg-green-400 text-black p-4 rounded-xl'>Tailwind test</h1>
 
-      {/* Here name and username is passed to Card.jsx  !*/}
+      {/* Here name and username is passed to Card.jsx  ! !*/}
       <Card name='Bhavya' someObject={myObject}  arr={newArr} username="Deepak"/>
       <Card name="Radhika"/>
         

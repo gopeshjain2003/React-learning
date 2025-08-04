@@ -25,8 +25,19 @@ function App()
   function addValue()
   {
     console.log("Counter Value + : "+counter) ;
-    let add = counter + 1 ;
-    setCounter(add) ;
+    // let add = counter + 1 ;
+    // setCounter(add) ;
+    // setCounter(add) ;
+    // setCounter(add) ;
+    // setCounter(add) ; 
+
+    // It is hidden feature , and there is always callback functions & it will move with 2 step forwards !
+    // Here we are experiencing the previous state from there we are accumulating the values !
+    setCounter(prevCounter => prevCounter+1); 
+    setCounter(prevCounter => prevCounter+1);
+
+    // setCounter(counter+1)
+    // setCounter(counter+1)
   }
 
   const decreaseValue = () => 

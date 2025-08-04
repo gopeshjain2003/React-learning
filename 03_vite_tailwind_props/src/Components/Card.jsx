@@ -30,7 +30,7 @@ function Card({name})
 
                 <div className="flex flex-col  rounded-b-xl py-4 ">
                     <div className="flex justify-between">
-                        {/* Here below we are making a dynamic update  */}
+                        {/* Here below we are making a dynamic update !  */}
                         <h1 className="font-RubikBold ">{name}</h1>
                         <h1 className="font-bold font-RubikBold">Price</h1>
                     </div>
